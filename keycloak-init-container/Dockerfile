@@ -6,5 +6,5 @@ RUN microdnf update && microdnf clean all && rm -rf /var/cache/yum/*
 
 COPY extensions.sh ./
 
-CMD [ "./extensions.sh"]
+CMD [ "./keycloak-iniy-container/extensions.sh"]
 
